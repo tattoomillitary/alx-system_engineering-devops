@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Port 80 Debugging
+# deleting and replacing
+
+sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service nginx restart
